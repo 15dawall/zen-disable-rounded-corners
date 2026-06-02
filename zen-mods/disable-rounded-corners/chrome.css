@@ -1,0 +1,242 @@
+@media (-moz-bool-pref: "zen.corners.disable") {
+  :root {
+    --zen-webview-border-radius: 0;
+    --zen-border-radius: 0;
+  }
+
+  #tabbrowser-tabpanels,
+  #tabbrowser-tabpanels .browserSidebarContainer,
+  .browserSidebarContainer,
+  #zen-tabbox-wrapper {
+    border-radius: 0 !important;
+  }
+
+  .tabbrowser-tab,
+  .tabbrowser-tab .tab-background,
+  .tabbrowser-tab .tab-stack,
+  .tabbrowser-tab:not([pinned]) .tab-content,
+  .tabbrowser-tab[pinned] .tab-content,
+  .tab-close-button,
+  .zen-essentials-container .tabbrowser-tab .tab-background {
+    border-radius: 0 !important;
+  }
+
+  #urlbar,
+  #urlbar-background,
+  #urlbar-input-container,
+  .urlbar-input-box,
+  #urlbar[open] > #urlbar-background,
+  .urlbarView,
+  .urlbarView-row,
+  .urlbarView-row-inner {
+    border-radius: 0 !important;
+  }
+
+  #main-window,
+  #sidebar-box,
+  #sidebar,
+  #sidebar-header,
+  .sidebar-panel,
+  .sidebar-splitter,
+  #zen-sidebar-icons-wrapper,
+  #zen-sidebar-bottom-buttons-wrapper,
+  #zen-sidebar-top-buttons-wrapper {
+    border-radius: 0 !important;
+  }
+
+  #searchbar,
+  .searchbar-textbox {
+    border-radius: 0 !important;
+  }
+
+  toolbar,
+  #nav-bar,
+  #TabsToolbar,
+  #PersonalToolbar {
+    border-radius: 0 !important;
+  }
+
+  #zen-workspaces-button,
+  #zen-workspaces-button .subviewbutton,
+  .zen-workspace-sidebar-header,
+  #zen-current-workspace-indicator,
+  #zen-current-workspace-indicator-name {
+    border-radius: 0 !important;
+  }
+
+  menupopup,
+  panel,
+  #notification-popup,
+  #context-menu,
+  #contentAreaContextMenu,
+  menuitem,
+  menucaption,
+  menu,
+  #PanelUI-contents,
+  .panel-arrowcontent,
+  .panel-header,
+  #PanelUI-mainView,
+  #PanelUI-button,
+  #PanelUI-menu-button,
+  #PanelUI-button .toolbarbutton-icon {
+    border-radius: 0 !important;
+  }
+
+  #statuspanel,
+  #statuspanel-label {
+    border-radius: 0 !important;
+  }
+
+  #findbar,
+  .findbar-container {
+    border-radius: 0 !important;
+  }
+
+  #ctrlTab-panel,
+  .ctrlTab-preview-inner,
+  .ctrlTab-canvas {
+    border-radius: 0 !important;
+  }
+
+  toolbarbutton,
+  toolbarbutton .toolbarbutton-icon,
+  toolbarbutton .toolbarbutton-badge-stack,
+  #alltabs-button .toolbarbutton-badge-stack,
+  #downloads-button,
+  #downloads-indicator-anchor,
+  #downloads-indicator-icon {
+    border-radius: 0 !important;
+  }
+
+  notification,
+  .notificationbox-stack,
+  #notification-panel {
+    border-radius: 0 !important;
+  }
+
+  #zen-split-views-divider {
+    border-radius: 0 !important;
+  }
+
+  html[zen-compact-mode] #titlebar,
+  html[zen-compact-mode] #nav-bar {
+    border-radius: 0 !important;
+  }
+
+  scrollbar,
+  scrollcorner,
+  scrollbar thumb,
+  scrollbar scrollbarbutton {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-webview") {
+  #tabbrowser-tabpanels,
+  #tabbrowser-tabpanels .browserSidebarContainer,
+  .browserSidebarContainer,
+  #zen-tabbox-wrapper {
+    --zen-webview-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-tabs") {
+  .tabbrowser-tab,
+  .tabbrowser-tab .tab-background,
+  .tabbrowser-tab .tab-stack,
+  .tabbrowser-tab:not([pinned]) .tab-content,
+  .tabbrowser-tab[pinned] .tab-content,
+  .tab-close-button,
+  .zen-essentials-container .tabbrowser-tab .tab-background {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-nav") {
+  #urlbar,
+  #urlbar-background,
+  #urlbar-input-container,
+  .urlbar-input-box,
+  #urlbar[open] > #urlbar-background,
+  .urlbarView,
+  .urlbarView-row,
+  .urlbarView-row-inner,
+  #searchbar,
+  .searchbar-textbox,
+  toolbar,
+  #nav-bar,
+  #TabsToolbar,
+  #PersonalToolbar {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-sidebar") {
+  #sidebar-box,
+  #sidebar,
+  #sidebar-header,
+  .sidebar-panel,
+  .sidebar-splitter,
+  #zen-sidebar-icons-wrapper,
+  #zen-sidebar-bottom-buttons-wrapper,
+  #zen-sidebar-top-buttons-wrapper {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-popups") {
+  menupopup,
+  panel,
+  #notification-popup,
+  #context-menu,
+  #contentAreaContextMenu,
+  menuitem,
+  menucaption,
+  menu,
+  #PanelUI-contents,
+  .panel-arrowcontent,
+  .panel-header,
+  #PanelUI-mainView,
+  #PanelUI-button,
+  #PanelUI-menu-button,
+  #PanelUI-button .toolbarbutton-icon,
+  #statuspanel,
+  #statuspanel-label,
+  #findbar,
+  .findbar-container,
+  #ctrlTab-panel,
+  .ctrlTab-preview-inner,
+  .ctrlTab-canvas {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-buttons") {
+  toolbarbutton,
+  toolbarbutton .toolbarbutton-icon,
+  toolbarbutton .toolbarbutton-badge-stack,
+  #alltabs-button .toolbarbutton-badge-stack,
+  #downloads-button,
+  #downloads-indicator-anchor,
+  #downloads-indicator-icon {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-workspaces") {
+  #zen-workspaces-button,
+  #zen-workspaces-button .subviewbutton,
+  .zen-workspace-sidebar-header,
+  #zen-current-workspace-indicator,
+  #zen-current-workspace-indicator-name {
+    border-radius: 0 !important;
+  }
+}
+
+@media (-moz-bool-pref: "zen.corners.disable-compact") {
+  html[zen-compact-mode] #titlebar,
+  html[zen-compact-mode] #nav-bar {
+    border-radius: 0 !important;
+  }
+}

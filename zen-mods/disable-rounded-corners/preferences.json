@@ -1,0 +1,72 @@
+[
+    {
+        "property": "zen.corners.disable",
+        "label": "Disable All Rounded Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Master toggle: disables ALL rounded corners across the entire browser UI."
+    },
+    {
+        "property": "zen.corners.disable-webview",
+        "label": "Disable Web View Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on the web content area."
+    },
+    {
+        "property": "zen.corners.disable-tabs",
+        "label": "Disable Tab Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on tabs."
+    },
+    {
+        "property": "zen.corners.disable-nav",
+        "label": "Disable Navbar Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on the navigation bar and URL bar."
+    },
+    {
+        "property": "zen.corners.disable-sidebar",
+        "label": "Disable Sidebar Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on the sidebar."
+    },
+    {
+        "property": "zen.corners.disable-popups",
+        "label": "Disable Popup/Menu Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on popups, menus, and panels."
+    },
+    {
+        "property": "zen.corners.disable-buttons",
+        "label": "Disable Button Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on toolbar buttons."
+    },
+    {
+        "property": "zen.corners.disable-workspaces",
+        "label": "Disable Workspace Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on workspace buttons."
+    },
+    {
+        "property": "zen.corners.disable-status",
+        "label": "Disable Status Bar Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners on the status bar and find bar."
+    },
+    {
+        "property": "zen.corners.disable-compact",
+        "label": "Disable Compact Mode Corners",
+        "type": "bool",
+        "defaultValue": true,
+        "description": "Disable rounded corners in compact mode."
+    }
+]
